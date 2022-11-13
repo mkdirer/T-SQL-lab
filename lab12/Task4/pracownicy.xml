@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<osoby>
+  <osoba>
+    <id>1</id>
+    <imie>Andrzej</imie>
+    <nazwisko>Zawada</nazwisko>
+    <idrola>1</idrola>
+  </osoba>
+  <osoba>
+    <id>2</id>
+    <imie>Jan</imie>
+    <nazwisko>Nowak</nazwisko>
+    <idrola>2</idrola>
+  </osoba>
+  <osoba>
+    <id>3</id>
+    <imie>Monika</imie>
+    <nazwisko>Kowalska</nazwisko>
+    <idrola>2</idrola>
+  </osoba>
+  <osoba>
+    <id>4</id>
+    <imie>John</imie>
+    <nazwisko>Smith</nazwisko>
+    <idrola>1</idrola>
+  </osoba>
+  <rola>
+    <id>1</id>
+    <nazwa>Szef</nazwa>
+  </rola>
+  <rola>
+    <id>2</id>
+    <nazwa>Pracownik</nazwa>
+  </rola>
+  <zarobki>
+    <idosoba id="1" rok="2004" zarobki_roczne="60000" />
+    <idosoba id="1" rok="2005" zarobki_roczne="45000" />
+    <idosoba id="2" rok="2004" zarobki_roczne="73000" />
+  </zarobki>
+</osoby>

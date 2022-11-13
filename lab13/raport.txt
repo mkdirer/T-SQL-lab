@@ -1,0 +1,18 @@
+W celu przetestowania transakcji rozproszonych (laboratoria nr. 13) wykonano następujące czynnośći: 
+- zmiana nazwy serwera na MSSQLSERVER008
+- wystartowanie SQL Server Browser
+- aktualizacja zapory systemowej
+- otwarcie pliku hosts i dopisanie adresów sąsiadów
+- dodanie reguł dla portów TCP i UDP
+- uruchomienie cmd i wykonanie następujących komend
+  msdtc -uninstall
+  shutdown -r -t 00
+- ponowne połączenie z serwerem przez rdesktop i wpisanie do cmd komend
+  msdtc -install
+  shutdown -r -t 00
+- ponowne połączenie z serwerem o nowej nazwie przy pomocy SQL Server Authentication i dodanie nowego użytkownika
+- zalogowanie się na inną maszynę przy pomocy SQL Server Authentication.
+- wykonanie kwerend załaczonych do treści laboratoriów na obu serwerach w bazie AdvetureWorks2008
+- uruchomienie programu Visual Studio 2008 i stworzenie nowego projektu jako aplikacja konsolowa
+- wykonanie załączonego kodu ze zmianą adresów na 08 i 06
+- sprawdzenie na obu serwerach, czy wprowadzenie zamian w tabelach się powiodło.
